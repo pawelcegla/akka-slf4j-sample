@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.0.0" name="akka-slf4j-sample">
+    <feature name="akka">
+        <bundle>mvn:org.scala-lang/scala-library/2.10.1</bundle>
+        <bundle>mvn:com.typesafe/config/1.0.0</bundle>
+        <bundle>mvn:com.typesafe.akka/akka-actor_2.10/2.1.2</bundle>
+        <bundle>mvn:com.typesafe.akka/akka-osgi_2.10/2.1.2</bundle>
+        <bundle>mvn:com.typesafe.akka/akka-slf4j_2.10/2.1.2</bundle>
+    </feature>
+</features>
